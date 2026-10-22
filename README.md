@@ -1,1 +1,27 @@
-# CS465
+# CS 465 Module Eight Journal: Travlr Full-Stack Application
+
+## Architecture
+
+Throughout this project, I learned how different frontend technologies work together to create a full-stack web application. Express HTML was used to serve traditional webpages from the server, while JavaScript added interactivity and allowed the application to respond to user actions. The Angular single-page application (SPA) provided a more dynamic experience for the administrative side of the Travlr application. Instead of reloading an entire page, Angular components allowed administrators to interact with different parts of the application more efficiently. Each technology served a different purpose, but together they helped create a complete application for customers and administrators.
+
+MongoDB was used as the database because it stores information in flexible, document-based structures. This worked well for the Travlr application because travel information, such as trip names, descriptions, prices, and other details, could be stored as documents. MongoDB also worked well with the JavaScript-based technologies used throughout the project. Using MongoDB with Express and Node.js helped simplify communication between the database and the backend.
+
+## Functionality
+
+JSON, which stands for JavaScript Object Notation, is a data format used to store and exchange information. JavaScript is a programming language that can perform calculations, respond to user interactions, and control application behavior. JSON is different because it organizes information into a structured format that applications can exchange. In the Travlr application, JSON helped the frontend and backend communicate by allowing the server to send trip information to the client and receive data from requests. This allowed the application to display information retrieved from the database and send updates back to the server.
+
+During the project, I improved my understanding of how different application components work together. For example, separating the Angular administrative interface into reusable components made it easier to organize the code and maintain consistent functionality. Reusing components reduced the need to duplicate code and made future updates easier. I also worked on connecting the frontend forms to backend routes and the database, which helped me understand how to troubleshoot problems that could occur when data moved between different parts of the application. Adding administrative authentication was another important improvement because it helped protect administrative functionality from unauthorized access.
+
+## Testing
+
+Testing is an important part of developing a full-stack application because it helps verify that different parts of the system communicate and function correctly. HTTP methods determine the type of action a request performs. GET requests retrieve information, POST requests submit information, PUT requests update existing information, and DELETE requests remove information. API endpoints are the specific routes that receive these requests and determine how the server handles them. In the Travlr application, endpoints connect the frontend to backend functionality, allowing the application to retrieve and manage travel information.
+
+Testing became more complicated when authentication and security were introduced. An endpoint that works without authentication may reject a request when access restrictions are enabled. This means testing needs to verify both successful requests from authorized users and unsuccessful requests from unauthorized users. Tools such as Postman can help test API endpoints by sending requests and checking the responses. Authentication, protected routes, and appropriate HTTP status codes are important because they help ensure that only authorized users can access administrative functionality. This project helped me understand that a working application must do more than provide the correct information. It must also protect sensitive functionality and handle invalid requests appropriately.
+
+## Reflection
+
+This course helped me develop skills that support my professional goals in technology, analytics, and project management. Building the Travlr application gave me practical experience with JavaScript, Node.js, Express, Angular, MongoDB, API endpoints, and authentication. I also improved my understanding of how frontend interfaces, backend services, and databases work together to create a functioning web application.
+
+One of the most valuable lessons from this course was learning how to troubleshoot problems across multiple parts of an application. Errors involving database connections, data validation, Angular components, and backend routes showed me the importance of understanding how different technologies depend on one another. I also learned the value of organizing code, reusing components, and testing changes instead of assuming that the application will work as expected. These skills are useful for working with technical teams, analyzing system requirements, and improving business processes.
+
+As I continue developing my career, the experience from this course will help me communicate more effectively with software developers and understand the technical side of healthcare and business systems. My background in healthcare project coordination and analytics makes it especially valuable to understand how applications are designed, developed, secured, and maintained. Completing this project strengthened my technical foundation and gave me practical experience that I can showcase in my professional portfolio.
